@@ -268,19 +268,7 @@ export default function CRRCadastrar() {
                             </IconButton>
                           </label>
                           </div>                               
-                        </Grid>
-  
-  
-                        <Grid container spacing={1}>
-                          <Grid item xs={12} sm={12}>
-                          <Button variant="contained" onClick={handleSubmit} color="primary">
-                            Salvar
-                          </Button>   
-                          </Grid>
-                          <Button onClick={this.handleOpen.bind(this)}>
-                  Add Image
-                </Button>               
-                          </Grid>
+                        </Grid>                        
                           </Grid>                
                           </Paper>                                                   
                           </Grid>
